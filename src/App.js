@@ -11,6 +11,8 @@ export const App = () => {
   return (
     <header>
       <h1>Dog App</h1>
+      <p>ワンちゃん画像を集めたサイト</p>
+      <img src="https://images.dog.ceo/breeds/frise-bichon/3.jpg"/>
     </header>
   )
 }
