@@ -20,9 +20,14 @@ export const App = () => {
       <div>
         <p>ワンちゃん画像を集めたサイト</p>
         <img src={dogUrl}/>
-        <button onClick={() => setDogUrl(
-          "https://images.dog.ceo/breeds/papillon/n02086910_9000.jpg"
-        )}>更新</button>
+        <button onClick={() => fetch("https://dog.ceo/api/breeds/image/random")
+          .then(res => {
+            return res.json();
+          })
+          .then(myJson => {
+            setDogUrl(myJson['message'])
+          })
+        }>更新</button>
       </div>
     </body>
   )
