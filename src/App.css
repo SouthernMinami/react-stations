@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.App-header {
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 50px;
+    top: 0;
+}
+
+.App-header h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    box-sizing: border-box;
+    display : flex;
+    display : inline-flex;
+    flex-direction: row;
+}
+
+.description {
+    padding: 200px 200px;
+}
+
+.dog-img {
+    padding: 20px 10px 0 200px;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    padding: 3px 15px;
+    margin: 10px;
+    border-radius: 2px;
+    float: right;
+}
