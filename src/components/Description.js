@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { useState } from 'react'
 import DogImage from './DogImage.js'
 
